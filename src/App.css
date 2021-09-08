@@ -1,38 +1,72 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #261C2C;
   color: white;
+  min-height: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+  background-color: #3E2C41 !important;
+  height: 350px;
+  /* width: 18rem; */
+}
+.card .card-img-top{
+  height: 200px;
+}
+.card  .list{
+  display: flex;
+  justify-content: space-between;
+}
+.card .btn{
+  background-color: #261C2C;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.card .btn:hover{
+  color: white;
+  background-color: #261C2C;
+}
+.card i{
+  font-size: 18px;
+}
+.card .fa-star{
+  margin-right: 5px;
+  color: #FFE459;
+}
+.card .fa-eye{
+color: #6E85B2;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* start pop */
+.modal-title{
+  color: #5C527F;
+}
+.modal-body{
+  color: #5C527F;
+}
+.modal-body img{
+  width: 100%;
+}
+.modal-body h5{
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* serch */
+.input-group .search{
+  background-color: #3E2C41;
+  color: white !important;
+  border: none;
+}
+.input-group .search:focus{
+border: none !important;
+background-color: #3E2C41;
+}
+.btn-outline-secondary{
+  background-color: #3E2C41 !important;
+  color: #6E85B2 !important;
+  border: none;
 }
